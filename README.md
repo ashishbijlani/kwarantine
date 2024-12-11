@@ -24,3 +24,4 @@ Thanks!
 
 * Secure isolation of apps/services w/o the virtualization tax
 * Long running serverless workers
+* Fast secure execution environment for AI agents.
