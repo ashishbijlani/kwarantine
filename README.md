@@ -19,3 +19,8 @@ Thanks!
 * Although **Firecracker** improved bootup time, it also uses VMs to sandbox container code. However, VMs incur high runtime overhead (not to be confused with fast booting) and need to be provisioned. Performance numbers on Firecracker are available in Fig 8/9 [here](https://www.usenix.org/system/files/nsdi20-paper-agache.pdf).
 
 * **Kwarantine** is a thin hypervisor that directly runs containers/workers on the hardware (no VMs). It uses hardware virtualization extensions, MMU, and page tables to provide the same level of security as VMs. Each container runs with a separate copy of the host kernel so that vulnerabilities/bugs are isolated. It does not use QEMU. We will post detailed technical docs on design/features and performance evaluation soon.
+
+# Use caes
+
+* Secure isolation of apps/services w/o the virtualization tax
+* Long running serverless workers
